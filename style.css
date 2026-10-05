@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #222;
+    background-color: white;
+}
+
+/* TOP MENU */
+.top-menu {
+    background-color: #003366;
+    color: white;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    gap: 25px;
+    font-weight: bold;
+}
+
+.top-menu span {
+    cursor: pointer;
+}
+
+/* MAIN CONTAINER */
+.container {
+    width: 95%;
+    margin: 20px auto;
+}
+
+/* TITLE */
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #aaa;
+}
+
+/* REQUIRED */
+.required {
+    color: #990000;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* FORM ROW */
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.form-row label {
+    width: 270px;
+    padding-left: 5px;
+}
+
+/* INPUTS */
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="date"] {
+    width: 205px;
+    height: 25px;
+    border: 1px solid #999;
+    padding: 3px 5px;
+    font-size: 13px;
+}
+
+/* RED WARNING TEXT */
+.warning {
+    color: #990000;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+/* ADDRESS TITLE */
+h3 {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 18px 0 10px 5px;
+}
+
+/* CHECKBOXES */
+.location {
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+.location label {
+    width: auto;
+    margin-right: 25px;
+}
+
+/* BUTTONS */
+button {
+    padding: 5px 15px;
+    margin-right: 5px;
+    border: 1px solid #777;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
